@@ -5,6 +5,10 @@ import { Analytics } from '@vercel/analytics/react'
 export const metadata: Metadata = {
   title: 'Crypto Dashboard — Real-Time Analytics',
   description: 'Live crypto prices, candlestick charts, volume and anomaly detection powered by Binance WebSocket.',
+  icons: {
+    icon: '/favicon.svg',
+    shortcut: '/favicon.svg',
+  },
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
